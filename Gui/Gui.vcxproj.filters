@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="EtcEtc">
+      <UniqueIdentifier>{88b7e91a-6524-4360-9d83-656d2cdb5c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc">
+      <UniqueIdentifier>{9849f449-c276-4733-9886-aecb192d56db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ipc_Etc">
+      <UniqueIdentifier>{9af6e260-91c0-4e26-a9d3-8647e8513d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App_Spt">
+      <UniqueIdentifier>{1335df38-d2be-4387-befe-93c4ec8657ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Gui.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Gui.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SmallGoldShaker.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleAppClient.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ipc_Etc\GenCliSvr2_AsyncSock.h">
+      <Filter>Ipc_Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ipc_Etc\GenCliSvr2_Client.h">
+      <Filter>Ipc_Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ipc_Etc\GenCliSvr2_Proto.h">
+      <Filter>Ipc_Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ipc_Etc\GenCliSvr2_Server.h">
+      <Filter>Ipc_Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ipc_Etc\GenCliSvr2_Sock.h">
+      <Filter>Ipc_Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ipc_Etc\WinFirewallTools.h">
+      <Filter>Ipc_Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ipc_Etc\WinSockErrors.h">
+      <Filter>Ipc_Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Etc\msg.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Etc\Millitime.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Etc\StdSys.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Etc\Fnsplit.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Etc\VibCtlPorts.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Etc\PrivateProfileStuff.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Etc\StringEx.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App_Spt\AppSpt.h">
+      <Filter>App_Spt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App_Spt\AppMsgs.h">
+      <Filter>App_Spt</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiGlobals.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleAppClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ipc_Etc\GenCliSvr2_AsyncSock.cpp">
+      <Filter>Ipc_Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ipc_Etc\GenCliSvr2_Client.cpp">
+      <Filter>Ipc_Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ipc_Etc\GenCliSvr2_Server.cpp">
+      <Filter>Ipc_Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ipc_Etc\GenCliSvr2_Sock.cpp">
+      <Filter>Ipc_Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ipc_Etc\WinFirewallTools.cpp">
+      <Filter>Ipc_Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ipc_Etc\WinSockErrors.cpp">
+      <Filter>Ipc_Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Etc\msg.cpp">
+      <Filter>Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Etc\Millitime.cpp">
+      <Filter>Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Etc\Fnsplit.cpp">
+      <Filter>Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Etc\VibCtlPorts.cpp">
+      <Filter>Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Etc\PrivateProfileStuff.cpp">
+      <Filter>Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Etc\StringEx.cpp">
+      <Filter>Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App_Spt\AppSpt.cpp">
+      <Filter>App_Spt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Gui.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
